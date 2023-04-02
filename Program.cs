@@ -49,7 +49,7 @@ namespace func.brainfuck
             {
                 Brainfuck.Run(sierpinskiTriangleBrainfuckProgram, Console.Read, Console.Write);
                 Console.WriteLine("Это была демонстрация Brainfuck на примере построения треугольника Серпинского\n\n" +
-                                  "Вы можете ввести свою комманду на языке brainfuck и получить её рсшифровку:\n\n");
+                                  "Вы можете ввести свою комманду на языке brainfuck и получить её рсшифровку:\n");
                 Brainfuck.Run(Console.ReadLine(), Console.Read, Console.Write);
             }
             Console.ReadKey();
